@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Slider 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" href="slider2.css">
+</head>
+<body>
+    <div class="container">
+        <a href="proyectocynthia.html"><i class="fa fa-home"></i>Volver</a>
+    </div>
+      <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="Slider/InternationalPeru1.jpeg">
+            </div>
+            <div class="details">
+                <h3>Curso International Border Interdiction Training en Perú - 1</h3>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="Slider/InternationalUS1.jpeg">
+            </div>
+            <div class="details">
+                <h3>Curso International Border Interdiction Training en Estados Unidos - 1</h3>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="Slider/InternationalPeru2.jpeg">
+            </div>
+            <div class="details">
+                <h3>Curso International Border Interdiction Training en Perú - 2</h3>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="Slider/InternationalUS2.jpeg">
+            </div>
+            <div class="details">
+                <h3>Curso International Border Interdiction Training en Estadios Unidados - 2</h3>
+            </div>        
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="Slider/Capacitacion1.jpeg">
+            </div>
+            <div class="details">
+                <h3>Capacitación a diversas instituciones.</h3>
+            </div>        
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="Slider/Docente2.jpeg">
+            </div>
+            <div class="details">
+                <h3>Cátedra como docente</h3>
+            </div>        
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="Slider/prensa1.jpeg">
+            </div>
+            <div class="details">
+                <h3>Reuniones de coordinación con diversas autoridades - 1</h3>
+            </div>        
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="Slider/prensa5.jpeg">
+            </div>
+            <div class="details">
+                <h3>Reuniones de coordinación con diversas autoridades - 2</h3>
+            </div>        
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="Slider/reuniones1.jpeg">
+            </div>
+            <div class="details">
+                <h3>Reuniones de coordinación con diversas autoridades - 3</h3>
+            </div>        
+        </div>
+        <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="Slider/prensa6.jpeg">
+            </div>
+            <div class="details">
+                <h3>Conferencia de prensa</h3>
+            </div>        
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+    <script type="text/javascript" src="swiper.min.js"></script>
+     <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>
