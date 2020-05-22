@@ -6,7 +6,7 @@ body {
 /* ------Header CSS------- */
 #header {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(iconos/work.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(icons/work.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -218,7 +218,7 @@ body {
 /*---------Informacion de contacto----------*/
 .contact {
     padding-top: 50px;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(iconos/office.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(icons/office.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
